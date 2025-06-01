@@ -63,6 +63,20 @@ Learning project for understanding WebSockets, real-time data handling, and full
 
 *EXCUTION COMMANDS* :
 
+chat-app/
+│
+├── models/
+│   ├── Message.js
+│   └── User.js
+│
+├── public/
+│   ├── client.js
+│   ├── index.html
+│   └── style.css
+│
+├── package.json
+├── package-lock.json
+├── server.js
 
 C:\Users\user\chat-app\chat-app>npm run dev
 
