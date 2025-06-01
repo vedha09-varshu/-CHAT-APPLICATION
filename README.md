@@ -63,3 +63,6 @@ Learning project for understanding WebSockets, real-time data handling, and full
 
 *OUTPUT*:
 
+![Image](https://github.com/user-attachments/assets/c5760e44-6e65-4078-a07e-df0c66fcf11d)
+![Image](https://github.com/user-attachments/assets/4e295fc5-9c1b-46be-a258-2ca76133efbd)
+
