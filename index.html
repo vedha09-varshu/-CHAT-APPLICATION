@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ChatterBox Pro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    💬 ChatterBox Pro
+  </header>
+
+  <!-- Login Section -->
+  <div id="login-container">
+    <h2>Welcome to ChatterBox Pro</h2>
+    <input id="username" placeholder="Enter your username" />
+    <select id="room-select">
+      <option value="General" selected>General</option>
+      <option value="Tech">Tech</option>
+      <option value="Random">Random</option>
+    </select>
+    <button id="join-btn">Join Chat</button>
+  </div>
+
+  <!-- Chat Section -->
+  <div id="chat-container" style="display: none;">
+    <div id="sidebar">
+      <h3>Users Online</h3>
+      <ul id="user-list"></ul>
+    </div>
+
+    <div id="main-chat">
+      <div id="chatWith" class="chat-with-text"></div>
+      <ul id="messages"></ul>
+      <form id="form">
+        <input id="input" autocomplete="off" placeholder="Type a message..." />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
