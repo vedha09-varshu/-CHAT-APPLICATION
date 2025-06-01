@@ -61,25 +61,11 @@ Basis for building more complex chat applications, including private messaging o
 
 Learning project for understanding WebSockets, real-time data handling, and full-stack JavaScript development.
 
+![image](https://github.com/user-attachments/assets/4cee3e9e-5ba0-4203-9a23-067fcb514f99)
+
 *EXCUTION COMMANDS* :
 
-chat-app/
-│
-├── models/
-│   ├── Message.js
-│   └── User.js
-│
-├── public/
-│   ├── client.js
-│   ├── index.html
-│   └── style.css
-│
-├── package.json
-├── package-lock.json
-├── server.js
-
 C:\Users\user\chat-app\chat-app>npm run dev
-
 
 *OUTPUT*:
 
